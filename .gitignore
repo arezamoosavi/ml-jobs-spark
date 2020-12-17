@@ -1,2 +1,10 @@
 *.class
 *.log
+
+# PyCharm project setting
+../.idea
+.idea
+
+out/
+.vscode
+\.vscode/
