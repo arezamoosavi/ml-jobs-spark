@@ -1,11 +1,45 @@
 *.class
 *.log
 
+# VIM temporary files
+*.swp
+
+# Emacs temporary files
+\#*#
+.#*
+
+# SBT
+project/project
+project/target
+target
+dist
+/.bsp
+
+# IDE project files/directories
+/.idea
+/.idea_modules
+/*.iml
+/.ensime*
+/.classpath
+/.project
+
+# Others
+logs
+tmp
+tags
+.history
+/.settings
+.cache
+/out
+out/
+/RUNNING_PID
+/nohup.out
+
+
 # PyCharm project setting
 ../.idea
 .idea
 
-out/
 .vscode
 \.vscode/
 
