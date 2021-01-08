@@ -9,6 +9,7 @@ import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.log4j._
 
 object EcommerceModeling extends App {
+
   Logger.getLogger("org").setLevel(Level.ERROR)
 
   val spark = SparkSession.builder()

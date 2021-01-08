@@ -1,4 +1,4 @@
-name := "spark-essentials"
+name := "ml-jobs-spark"
 
 version := "0.1"
 
