@@ -12,7 +12,7 @@ object pca_canser_analysis extends App {
   Logger.getLogger("org").setLevel(Level.ERROR)
 
   val spark = SparkSession.builder()
-    .appName("Regression App")
+    .appName("PCA App")
     .config("spark.master", "local")
     .getOrCreate()
 
